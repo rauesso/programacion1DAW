@@ -1,0 +1,17 @@
+
+
+public class Practica7 {
+	
+
+		public static void main(String[] args) {
+	
+		float alto, ancho, area, perimetro;
+		area=alto*ancho;
+		perimetro=2*alto+2*ancho;
+		System.out.println("El area del rectangulo es "+area+" y el perimetro "+perimetro);
+		}
+
+
+
+
+}

@@ -1,0 +1,14 @@
+import java.io.IOException;
+
+public class Practica6 {
+	public static void main(String[] args) throws IOException {
+	int num1, num2;
+	
+	System.out.println("Dame un numero y pulsa Intro:");
+	num1=System.in.read();
+	System.out.println("Dame otro numero y pulsa Intro:");
+	num2=System.in.read();
+	
+	}
+
+}

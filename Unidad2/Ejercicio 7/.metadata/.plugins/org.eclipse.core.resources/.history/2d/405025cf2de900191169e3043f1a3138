@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Ejercicio9 {
+
+	int dias, horas, minutos, segundos, seg;
+	
+	//pido los segundos
+	
+	Scanner lector=new Scanner(System.in);
+	
+	System.out.println("Introduce el numero de segundos y pulsa Intro:");
+	
+	seg=lector.nextInt();
+	
+	
+	
+	
+}

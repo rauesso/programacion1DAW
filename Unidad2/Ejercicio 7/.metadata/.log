@@ -1,0 +1,10 @@
+!SESSION 2019-10-07 19:46:24.808 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-07 19:46:54.885
+!MESSAGE Using Apache MINA sshd as ssh client.

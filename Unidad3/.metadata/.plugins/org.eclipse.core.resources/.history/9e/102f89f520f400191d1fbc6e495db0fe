@@ -1,0 +1,28 @@
+
+public class Actividad16 {
+	
+	public static void main(String[] args) {
+		
+		double inicio=0, rango1=10/6f, rango2=((10/6)*2)f, rango3=(10/6)*3f, rango4= (10/6)*4f, rango5=(10/6)*5, rango6=10;
+		
+		int numerocaras=0, numerocruces=0;
+		float porcentajecaras, porcentajecruces;
+		double moneda;
+		
+		System.out.println(inicio+" "+rango1+" "+rango2+" "+rango3+" "+rango4+" "+rango5+" "+rango6);
+		
+		
+		for (int i=1;i<=1000000;i++) {
+			moneda=Math.random();
+			// si el numero es menor que 0,5, cara, sino, cruz
+			if(moneda<0.5) numerocaras++;
+			else numerocruces++;;
+		}
+		porcentajecaras=(numerocaras*100)/1000000f;
+		porcentajecruces=(numerocruces*100)/1000000f;
+		System.out.println("El numero de caras es: "+numerocaras+" "+porcentajecaras+"%");
+		System.out.println("El numero de cruces es: "+numerocruces+" "+porcentajecruces+"%");
+	}
+
+
+}

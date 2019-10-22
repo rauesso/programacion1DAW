@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Ejercicio8 {
+	
+
+		public static void main(String[] args) {
+	
+		double alto, diametro, volumen, area, radio;
+		
+		// Pido los datos necesarios
+		
+		Scanner lector=new Scanner(System.in);
+		
+		System.out.println("Introduce el alto del cilindro y pulsa Intro:");
+		alto=lector.nextFloat();
+		
+		System.out.println("Introduce el diametro del cilindro y pulsa Intro:");
+		diametro=lector.nextFloat();
+		radio=diametro/2;
+		
+		// Hago los cálculos
+		
+		
+				
+	    area=2*Math.PI*radio*radio+2*Math.PI*radio*alto;
+	    
+
+	    
+	    volumen=Math.PI*radio*radio*alto;
+		
+		//Lanzo a pantalla los calculos
+		
+		System.out.println("El area del cilindro es "+area+" y el volumen es "+volumen);
+		}
+
+
+
+
+}

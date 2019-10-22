@@ -1,0 +1,12 @@
+
+public class Practica5 {
+
+		public static void main(String[] args) {
+			double total;
+			double total2;
+			total=((2000*0.0275)/2)*(1-(1/0.18));
+			total2=((2000*0.0275)/2)-(((2000*0.0275)/2)*0.18);
+			System.out.println("Total a percibir semestral "+total+","+total2);
+		}
+
+}

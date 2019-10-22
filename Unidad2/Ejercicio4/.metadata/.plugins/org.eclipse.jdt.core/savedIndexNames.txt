@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/home/rauesso/Documents/Maria Enriquez/1DAW/Programacion/Unidad2/Ejercicio4/.metadata/.plugins/org.eclipse.jdt.core
+1222821935.index
+2800527619.index
+3521878421.index
+1072036025.index
+1976123525.index

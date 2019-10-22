@@ -1,0 +1,8 @@
+
+public class Practica4 {
+	long total;
+	
+	total=85-((85*15)/100);
+	System.out.println("El precio a pagar es "+total);	
+
+}

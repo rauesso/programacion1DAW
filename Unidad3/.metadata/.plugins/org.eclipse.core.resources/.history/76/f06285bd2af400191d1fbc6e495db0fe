@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Actividad15 {
+	public static void main(String[] args) {
+		
+		double numero, numeropensado, numerousuario, intentos=0;
+		
+		Scanner lector=new Scanner(System.in);
+		
+		numero=Math.random()*100;
+		
+		numeropensado=numero%1;
+		numeropensado=numero-numeropensado;
+		
+
+		
+		
+		System.out.println(numeropensado);
+		
+		System.out.println("El ordenador se ha pensado un numero y lo debes de adivinar:");
+		
+		do {
+		System.out.println("Prueba suerte: ");
+		numerousuario=lector.nextDouble();
+		if (numerousuario<numero) System.out.println("No llegas");
+		if (numerousuario>numero) System.out.println("Te has pasado");
+		intentos++;
+		
+		}
+		while (numerousuario!=numeropensado);
+		System.out.println("Enhorabuena!!!!! Has necesitado "+intentos+" intentos.");
+		lector.close();	
+	}
+
+}
